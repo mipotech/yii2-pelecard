@@ -1,0 +1,21 @@
+{
+    "name": "mipotech/yii2-pelecard",
+    "description": "A set of Yii2 classes for Pelecard integration",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mipo Technologies Ltd",
+            "email": "chaim@mipo.co.il"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "\\mipotech\\pelecard\\": ""
+        }
+    }
+}
