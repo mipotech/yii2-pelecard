@@ -5,7 +5,7 @@
  * @version 1.0
  */
 
-namespace app\components\pelecard\requests;
+namespace mipotech\pelecard\requests;
 
 /**
  * ConvertToToken represents a function to convert the credit card data to a string.
@@ -26,9 +26,9 @@ class ConvertToToken extends ApiRequest
 	 * @var string $creditCardDateMmYy valid date in MMYY format
 	 */
 	public $creditCardDateMmYy;
-	
+
 	/**
 	 */
-	 
+
 	public $addFourDigits = 'false';
 }

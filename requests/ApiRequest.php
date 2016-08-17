@@ -5,7 +5,7 @@
  * @version 1.0
  */
 
-namespace app\components\pelecard\requests;
+namespace mipotech\pelecard\requests;
 
 use Yii;
 
